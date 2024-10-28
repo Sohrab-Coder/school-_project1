@@ -6,7 +6,7 @@ class TicTacToe:
     def __init__(self, root):
         self.root = root
         self.root.title("Tic Tac Toe")
-        self.root.geometry("362x360")
+        self.root.geometry("375x365")
         self.root.configure(bg='#8B4513')  # Wooden color background
         self.board = [' ' for _ in range(9)]  # 3x3 board
         self.current_player = 'X'
@@ -56,12 +56,3 @@ if __name__ == "__main__":
     root = tk.Tk()
     game = TicTacToe(root)
     root.mainloop()
- 
- 
-
-
-# In[ ]:
-
-
-
-
